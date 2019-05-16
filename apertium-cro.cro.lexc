@@ -4,6 +4,7 @@ Multichar_Symbols
 
 ! Part of speech categories
 %<n%>   ! Noun
+%<prn%> 
 
 ! Number morphology
 %<pl%>  ! Plural
@@ -20,16 +21,31 @@ Multichar_Symbols
 LEXICON Root
 
 Nouns ;
+Pronouns ; 
 
 
 LEXICON N
 
 %<n%>: # ;
 
+LEXICON PERS-BII
+
+%<prn%>%<pers%>%<sg1%>: # ;  
+
+LEXICON PERS-BÍILU
+
+%<prn%>%<pers%>%<pl1%>: # ;  
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Pronouns 
+
+bii:bii PERS-BII ; ! "I" 
+bíilu:bíilu PERS-BÍILU ; ! "I" 
 
 LEXICON Nouns
 
