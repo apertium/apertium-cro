@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-cro
+
+Name: apertium-cro
+Description: Finite-state morphological transducer and constraint grammar for cro 
+Version: @VERSION@
+
