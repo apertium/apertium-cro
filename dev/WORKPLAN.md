@@ -2,11 +2,15 @@
 
 * Write up test files for nouns (inflection)
 * Write up test files for nouns (derivation)
+* Write up test files for pronouns
+* Add noun/pronoun stems from the grammar
+
+## Week 22
+
 * Write up test files for stative verbs
 * Write up test files for active verbs (intransitive)
 * Write up test files for active verbs (transitive)
-
-## Week 22
+* Add verb stems from the grammar
 
 ## Week 23
 
