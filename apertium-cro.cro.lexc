@@ -33,16 +33,20 @@ LEXICON N
 
 LEXICON Nouns
 
-beé:beé N ; ! "louse"
-bii:bii N ; ! "stone"
-bia:bia N ; ! "woman"
-ii:ii N ; ! "mouth"
-suú:suú N ; ! "thunder"
+beé:beé N ; ! "louse" ! Ref/gra:43
+bii:bii N ; ! "stone" ! Ref/gra:43
+bia:bia N ; ! "woman ! Ref/gra:43
+ii:ii N ; ! "mouth ! Ref/gra:43
+suú:suú N ; ! "thunder ! Ref/gra:43
 
-áapa:áapa N ; ! "leaf"
-balá:balá N ; ! "wood"
-bilía:bilía N ; ! ""
+áapa:áapa N ; ! "leaf ! Ref/gra:43
+balá:balá N ; ! "wood ! Ref/gra:43
+bilía:bilía N ; ! "door ! Ref/gra:43
+cheéta:cheéta N ; ! "wolf ! Ref/gra:43
+dachká:dachká N ; ! "twin ! Ref/gra:43
+iitchí:iitchí N ; ! "cane ! Ref/gra:43
 
+óosshee:óosshee N ; ! "food" ! Ref/gra:52
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
