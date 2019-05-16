@@ -19,23 +19,29 @@ Multichar_Symbols
 
 LEXICON Root
 
-NounRoot ;
+Nouns ;
 
 
-LEXICON RegNounInfl
+LEXICON N
 
-%<n%>%<sg%>: # ;
-%<n%>%<pl%>:%>s # ;
+%<n%>: # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON NounRoot
+LEXICON Nouns
 
-house:house RegNounInfl ; ! A noun
+beé:beé N ; ! "louse"
+bii:bii N ; ! "stone"
+bia:bia N ; ! "woman"
+ii:ii N ; ! "mouth"
+suú:suú N ; ! "thunder"
 
+áapa:áapa N ; ! "leaf"
+balá:balá N ; ! "wood"
+bilía:bilía N ; ! ""
 
 
 ! Resources:
