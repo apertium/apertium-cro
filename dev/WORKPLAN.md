@@ -3,7 +3,7 @@
 * Write up test files for nouns (inflection)
 * Write up test files for nouns (derivation)
 * Write up test files for pronouns
-* Add noun/pronoun stems from the grammar
+* Add noun/(personal) pronoun stems from the grammar
 
 ## Week 22
 
@@ -13,6 +13,8 @@
 * Add verb stems from the grammar
 
 ## Week 23
+
+* Add stems for demonstratives
 
 ## Week 24
 
