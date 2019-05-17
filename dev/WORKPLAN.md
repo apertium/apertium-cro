@@ -1,4 +1,8 @@
+## Week 20 (13th May--19th May)
+*Meeting 1*
+
 ## Week 21 (20th May--26th May)
+*Meeting 2*
 
 * Add example sentences to `texts/grammar.tsv` (ch.1-2)
 * Write up test files for nouns (inflection)
@@ -16,6 +20,7 @@
 * Add verb stems from the grammar
 
 ## Week 23 (3rd June--9th June)
+*Meeting 3*
 
 * Add example sentences to `texts/grammar.tsv` (ch.5-6)
 * Add stems for demonstratives
@@ -24,6 +29,7 @@
   * Possessive
 
 ## Week 24 (10th June--16th June)
+*Meeting 4*
 
 * Add example sentences to `texts/grammar.tsv` (ch.6-7)
 * Add noun inflection:
