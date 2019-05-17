@@ -15,8 +15,15 @@
 ## Week 23
 
 * Add stems for demonstratives
+* Add noun inflection:
+  * Plural
+  * Definite
+  * Indefinite
+  * Possessive
 
 ## Week 24
+
+* Add all example sentences to `texts/grammar.tsv`
 
 ## Week 25
 
