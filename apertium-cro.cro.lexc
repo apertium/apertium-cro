@@ -67,31 +67,31 @@ apá:apá N ; ! "nose" ! Ref/gra:52
 
 dúula:dúula N ; ! "back" ! Ref/gra:54
 dáaka:dáaka N ; ! "child, offspring"
-dáakaaxee:daakaaxee N ! "back of thigh"
-daasá:daasá N ! "heart" ! Ref/gra:54
-dáashuli:dáashuli N ! "thigh"
-dáata:dáata N ! "calf of leg"
-datchawuú:datchawuú N ! "armpit"
-dáxpa:dáxpa N ! "side of hip"
-déeshi:déeshi N ! "tongue"
-dúuleepa:dúuleepa N ! "jaw"
-dúusa:dúusa N ! "rib"
+dáakaaxee:daakaaxee N ; ! "back of thigh"
+daasá:daasá N ; ! "heart" ! Ref/gra:54
+dáashuli:dáashuli N ; ! "thigh"
+dáata:dáata N ; ! "calf of leg"
+datchawuú:datchawuú N ; ! "armpit"
+dáxpa:dáxpa N ; ! "side of hip"
+déeshi:déeshi N ; ! "tongue"
+dúuleepa:dúuleepa N ; ! "jaw"
+dúusa:dúusa N ; ! "rib"
 
-ishtá:ishtá N ! "eye" ! Ref/gra:55
-ichí:ichí N ! "foot" ! Ref/gra:55
-icheechí:icheechí N ! "heel" ! Ref/gra:55
-ichklísa:ichklísa N ! "ankle" ! Ref/gra:55
-iláshpi:iláshpi N ! "shoulder" ! Ref/gra:55
-isbassá:isbassá N ! "thumb" ! Ref/gra:55
-isbaxxáa:isbaxxáa N ! "elbow" ! Ref/gra:55
-ischí:ischí N ! "hand" ! Ref/gra:55
-ishíssaa:ishíssaa N ! "lower torso" ! Ref/gra:55
-ishkulí:ishkulí N ! "finger" ! Ref/gra:55
-ishtá:ishtá N ! "eye" ! Ref/gra:55
-ishúu:ishúu N ! "base of neck" ! Ref/gra:55
-ishúushi:ishúushi N ! "knee" ! Ref/gra:55
-isísa:isísa N ! "buttocks" ! Ref/gra:55
-askuchkápi:askuchkápi N ! Ref/gra:55
+ishtá:ishtá N ; ! "eye" ! Ref/gra:55
+ichí:ichí N ; ! "foot" ! Ref/gra:55
+icheechí:icheechí N ; ! "heel" ! Ref/gra:55
+ichklísa:ichklísa N ; ! "ankle" ! Ref/gra:55
+iláshpi:iláshpi N ; ! "shoulder" ! Ref/gra:55
+isbassá:isbassá N ; ! "thumb" ! Ref/gra:55
+isbaxxáa:isbaxxáa N ; ! "elbow" ! Ref/gra:55
+ischí:ischí N ; ! "hand" ! Ref/gra:55
+ishíssaa:ishíssaa N ; ! "lower torso" ! Ref/gra:55
+ishkulí:ishkulí N ; ! "finger" ! Ref/gra:55
+ishtá:ishtá N ; ! "eye" ! Ref/gra:55
+ishúu:ishúu N ; ! "base of neck" ! Ref/gra:55
+ishúushi:ishúushi N ; ! "knee" ! Ref/gra:55
+isísa:isísa N ; ! "buttocks" ! Ref/gra:55
+askuchkápi:askuchkápi N ; ! Ref/gra:55
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
