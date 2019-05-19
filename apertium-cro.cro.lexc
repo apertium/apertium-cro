@@ -35,12 +35,15 @@ LEXICON POST-CITE
 LEXICON POST-STEM
 
 %+ss%<post%>:%>ss K ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
-%+kaa%<post%>:%>kaa K ;               ! -kaa `from' SRC
 
-%+hchée%<post%>:%>hchée K ;           ! -hchée `here and there' DIST
-%+chiisaa%<post%>:%>chiisaa K ;       ! -chiisaa `right there' LOC-SPEC
-%+htée%<post%>:%>htée K ;             ! -htée `right there' LOC-SPEC
 %+ko%<post%>:%>ko K ;                 ! -ko `at, to, from' LOC-GEN
+
+!LEXICON POST-NONPROD
+!
+!%+kaa%<post%>:%>kaa K ;               ! -kaa `from' SRC
+!%+hchée%<post%>:%>hchée K ;           ! -hchée `here and there' DIST
+!%+chiisaa%<post%>:%>chiisaa K ;       ! -chiisaa `right there' LOC-SPEC
+!%+htée%<post%>:%>htée K ;             ! -htée `right there' LOC-SPEC
 
 LEXICON N
 
