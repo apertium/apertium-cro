@@ -91,8 +91,12 @@ ishtá:ishtá N ! "eye" ! Ref/gra:55
 ishúu:ishúu N ! "base of neck" ! Ref/gra:55
 ishúushi:ishúushi N ! "knee" ! Ref/gra:55
 isísa:isísa N ! "buttocks" ! Ref/gra:55
-askuchkápi:askuchkápi N ! Ref/gra:55
-
+iskuchkápi:iskuchkápi N ! "wrist" ! Ref/gra:55
+ispaxpá:ispaxpá N ! "fingernail" ! Ref/gra:55
+isshií:isshií N ! "hair" ! Ref/gra:55
+isshulí:isshulí N ! "biceps" ! Ref/gra:55
+istéhpa:istéhpa N ! "navel" ! Ref/gra:55
+itáxpuu:itáxpuu N ! "toenail, claw" ! Ref/gra:55
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
 ! http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
