@@ -35,7 +35,7 @@ TARGETS_COMMON =			\
 	cat $< | grep -v 'Dir/RL' > $@
 
 .deps/$(LANG1).RL.lexc.hfst: .deps/$(LANG1).RL.lexc
-	hfst-lexc $< -o $@ -v
+	hfst-lexc --Werror $< -o $@ -v
 
 .deps/$(LANG1).LR.lexc.hfst: .deps/$(LANG1).LR.lexc
 	hfst-lexc $< -o $@ -v

@@ -4,7 +4,7 @@
 ## Week 21 (20th May--26th May)
 *Meeting 2*
 
-* Add example sentences to `texts/grammar.tsv` (ch.1-2)
+* Add example sentences to `texts/grammar.tsv` (ch.1-4)
 * Write up test files for nouns (inflection)
 * Write up test files for nouns (derivation)
 * Write up test files for pronouns
@@ -12,7 +12,7 @@
 
 ## Week 22 (27th May--3rd June)
 
-* Add example sentences to `texts/grammar.tsv` (ch.3-4)
+* Add example sentences to `texts/grammar.tsv` (ch.15)
 * Write up test files for stative verbs
 * Write up test files for active verbs (intransitive)
 * Write up test files for active verbs (transitive)
@@ -56,7 +56,7 @@
 
 ## Week 29 (15th July--21st July)
 
-* Add example sentences to `texts/grammar.tsv` (ch.15-17)
+* Add example sentences to `texts/grammar.tsv` (ch.16-17)
 
 ## Week 30 (22nd July--28th July)
 

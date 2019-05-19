@@ -4,11 +4,13 @@ Multichar_Symbols
 
 %<n%>               ! Noun
 %<prn%>             ! Pronoun
+%<post%>            ! Postposition
+%<spost%>           ! Separable postposition
 
-%<pl%>  ! Plural
-%<sg%>  ! Singular
+%<pl%>              ! Plural
+%<sg%>              ! Singular
 
-%>      ! Morpheme boundary
+%>                  ! Morpheme boundary
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -19,12 +21,34 @@ LEXICON Root
 
 Nouns ;
 Pronouns ; 
+Postpositions ; 
 
+LEXICON K 
+
+# ; 
+
+LEXICON POST-CITE
+
+%+taa%<post%>:%>taa K ;               ! -taa `along' PATH
+%+n%<post%>:%>n K ;                   ! -n `at, on; from' LOC,SRC
+
+LEXICON POST-STEM
+
+%+ss%<post%>:%>ss K ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
+
+%+ko%<post%>:%>ko K ;                 ! -ko `at, to, from' LOC-GEN
+
+!LEXICON POST-NONPROD
+!
+!%+kaa%<post%>:%>kaa K ;               ! -kaa `from' SRC
+!%+hchée%<post%>:%>hchée K ;           ! -hchée `here and there' DIST
+!%+chiisaa%<post%>:%>chiisaa K ;       ! -chiisaa `right there' LOC-SPEC
+!%+htée%<post%>:%>htée K ;             ! -htée `right there' LOC-SPEC
 
 LEXICON N
 
-%<n%>: # ;
-
+%<n%>: POST-CITE ;
+%<n%>: POST-STEM ;
 
 LEXICON PERS-BII
 
@@ -34,11 +58,22 @@ LEXICON PERS-BÍILU
 
 %<prn%>%<pers%>%<pl1%>: # ;  
 
+LEXICON SPOST 
+
+%<spost%>: # ; 
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Postpositions
+
+áappaa:áappaa SPOST ; ! "with"
+aák:aák SPOST ; ! "with"
+
+píisshe:píisshe SPOST ; ! "after"
+biaxsée:biaxsée SPOST ; ! "under"
 
 LEXICON Pronouns 
 
@@ -67,6 +102,7 @@ apá:apá N ; ! "nose" ! Ref/gra:52
 
 dúula:dúula N ; ! "back" ! Ref/gra:54
 dáaka:dáaka N ; ! "child, offspring"
+<<<<<<< HEAD
 dáakaaxee:daakaaxee N ! "back of thigh"
 daasá:daasá N ! "heart" ! Ref/gra:54
 dáashuli:dáashuli N ! "thigh"
@@ -97,6 +133,34 @@ isshií:isshií N ! "hair" ! Ref/gra:55
 isshulí:isshulí N ! "biceps" ! Ref/gra:55
 istéhpa:istéhpa N ! "navel" ! Ref/gra:55
 itáxpuu:itáxpuu N ! "toenail, claw" ! Ref/gra:55
+=======
+dáakaaxee:daakaaxee N ; ! "back of thigh"
+daasá:daasá N ; ! "heart" ! Ref/gra:54
+dáashuli:dáashuli N ; ! "thigh"
+dáata:dáata N ; ! "calf of leg"
+datchawuú:datchawuú N ; ! "armpit"
+dáxpa:dáxpa N ; ! "side of hip"
+déeshi:déeshi N ; ! "tongue"
+dúuleepa:dúuleepa N ; ! "jaw"
+dúusa:dúusa N ; ! "rib"
+
+ishtá:ishtá N ; ! "eye" ! Ref/gra:55
+ichí:ichí N ; ! "foot" ! Ref/gra:55
+icheechí:icheechí N ; ! "heel" ! Ref/gra:55
+ichklísa:ichklísa N ; ! "ankle" ! Ref/gra:55
+iláshpi:iláshpi N ; ! "shoulder" ! Ref/gra:55
+isbassá:isbassá N ; ! "thumb" ! Ref/gra:55
+isbaxxáa:isbaxxáa N ; ! "elbow" ! Ref/gra:55
+ischí:ischí N ; ! "hand" ! Ref/gra:55
+ishíssaa:ishíssaa N ; ! "lower torso" ! Ref/gra:55
+ishkulí:ishkulí N ; ! "finger" ! Ref/gra:55
+ishtá:ishtá N ; ! "eye" ! Ref/gra:55
+ishúu:ishúu N ; ! "base of neck" ! Ref/gra:55
+ishúushi:ishúushi N ; ! "knee" ! Ref/gra:55
+isísa:isísa N ; ! "buttocks" ! Ref/gra:55
+askuchkápi:askuchkápi N ; ! Ref/gra:55
+
+>>>>>>> b51566aaf8fc8c6245453f13d1b7ec2984cfc6c7
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
 ! http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
