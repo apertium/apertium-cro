@@ -4,11 +4,14 @@ Multichar_Symbols
 
 %<n%>               ! Noun
 %<prn%>             ! Pronoun
+%<det%>             ! Determiner
 %<post%>            ! Postposition
 %<spost%>           ! Separable postposition
 
 %<pl%>              ! Plural
 %<sg%>              ! Singular
+
+%{n%}               ! -n, -l
 
 %>                  ! Morpheme boundary
 
@@ -27,16 +30,26 @@ LEXICON K
 
 # ; 
 
+LEXICON DET 
+
+%+sh%<det%>:%>sh K ; 
+                 K ;
+
 LEXICON POST-CITE
 
-%+taa%<post%>:%>taa K ;               ! -taa `along' PATH
-%+n%<post%>:%>n K ;                   ! -n `at, on; from' LOC,SRC
+%+taa%<post%>:%>taa DET ;               ! -taa `along' PATH
+%+n%<post%>:%>%{n%} DET ;               ! -n `at, on; from' LOC,SRC
 
 LEXICON POST-STEM
 
-%+ss%<post%>:%>ss K ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
-
+%+ss%<post%>:%>ss DET ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
 %+ko%<post%>:%>ko K ;                 ! -ko `at, to, from' LOC-GEN
+
+LEXICON POST 
+
+POST-CITE ;
+POST-STEM ; 
+K ;
 
 !LEXICON POST-NONPROD
 !
@@ -50,13 +63,51 @@ LEXICON N
 %<n%>: POST-CITE ;
 %<n%>: POST-STEM ;
 
-LEXICON PERS-BII
+LEXICON PRON-BOUND-B
 
-%<prn%>%<pers%>%<sg1%>: # ;  
+! bii
+%<p1%>:b%> PERS-II ; 
+%<p2%>:d%> PERS-II ; 
+%<p3%>:    PERS-II ; 
 
-LEXICON PERS-BÍILU
+! bíilaa
+%<p1%>:b%> PERS-ÍILAA ; 
+%<p2%>:d%> PERS-ÍILAA ; 
+%<p3%>:    PERS-ÍILAA ; 
 
-%<prn%>%<pers%>%<pl1%>: # ;  
+! biiléen
+           PERS-IILÉEN ; 
+
+! bíh
+
+! bík
+
+! bíhkan
+
+! biichíhk
+
+! biiaxúa
+
+! bittáchi
+
+LEXICON PERS-II
+
+ii%<prn%>%<pers%>%<sg%>:ii POST ;  
+ii%<prn%>%<pers%>%<pl%>:íilu POST ;  
+
+LEXICON PERS-ÍILAA 
+
+íilaa%<prn%>%<pers%>:íilaa POST ;  
+
+LEXICON PERS-IILÉEN
+
+%<p1%>iiléen%<prn%>%<pers%>%<sg%>:b%>iiléen POST ;  
+%<p2%>iiléen%<prn%>%<pers%>%<sg%>:d%>iiléen POST ;  
+%<p3%>iiléen%<prn%>%<pers%>%<sg%>:iiléen POST ;  
+%<p1%>iiléen%<prn%>%<pers%>%<pl%>:b%>íiluun POST ;  
+%<p2%>iiléen%<prn%>%<pers%>%<pl%>:d%>íiluun POST ;  
+%<p3%>iiléen%<prn%>%<pers%>%<pl%>:íiluun POST ;  
+
 
 LEXICON SPOST 
 
@@ -77,10 +128,7 @@ biaxsée:biaxsée SPOST ; ! "under"
 
 LEXICON Pronouns 
 
-bii:bii PERS-BII ; ! "I" 
-bíilu:bíilu PERS-BÍILU ; ! "I" 
-
-
+PRON-BOUND-B ; 
 
 LEXICON Nouns
 
