@@ -150,7 +150,7 @@ apá:apá N ; ! "nose" ! Ref/gra:52
 
 dúula:dúula N ; ! "back" ! Ref/gra:54
 dáaka:dáaka N ; ! "child, offspring"
-<<<<<<< HEAD
+
 dáakaaxee:daakaaxee N ! "back of thigh"
 daasá:daasá N ! "heart" ! Ref/gra:54
 dáashuli:dáashuli N ! "thigh"
@@ -184,7 +184,7 @@ itáxpuu:itáxpuu N ! "toenail, claw" ! Ref/gra:55
 itbuú:itbuú N ; ! "sole" ! Ref/gra:55
 itchúa:itchúa N ; ! "side of head" ! Ref/gra:55
 itchúupa:itchúupa N ; ! "shin" ! Ref/gra:55
-=======
+
 dáakaaxee:daakaaxee N ; ! "back of thigh"
 daasá:daasá N ; ! "heart" ! Ref/gra:54
 dáashuli:dáashuli N ; ! "thigh"
@@ -196,7 +196,6 @@ dúuleepa:dúuleepa N ; ! "jaw"
 dúusa:dúusa N ; ! "rib"
 
 
->>>>>>> b51566aaf8fc8c6245453f13d1b7ec2984cfc6c7
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
 ! http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
