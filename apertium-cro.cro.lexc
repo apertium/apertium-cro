@@ -150,6 +150,41 @@ apá:apá N ; ! "nose" ! Ref/gra:52
 
 dúula:dúula N ; ! "back" ! Ref/gra:54
 dáaka:dáaka N ; ! "child, offspring"
+<<<<<<< HEAD
+dáakaaxee:daakaaxee N ! "back of thigh"
+daasá:daasá N ! "heart" ! Ref/gra:54
+dáashuli:dáashuli N ! "thigh"
+dáata:dáata N ! "calf of leg"
+datchawuú:datchawuú N ! "armpit"
+dáxpa:dáxpa N ! "side of hip"
+déeshi:déeshi N ! "tongue"
+dúuleepa:dúuleepa N ! "jaw"
+dúusa:dúusa N ! "rib"
+
+ishtá:ishtá N ! "eye" ! Ref/gra:55
+ichí:ichí N ! "foot" ! Ref/gra:55
+icheechí:icheechí N ! "heel" ! Ref/gra:55
+ichklísa:ichklísa N ! "ankle" ! Ref/gra:55
+iláshpi:iláshpi N ! "shoulder" ! Ref/gra:55
+isbassá:isbassá N ! "thumb" ! Ref/gra:55
+isbaxxáa:isbaxxáa N ! "elbow" ! Ref/gra:55
+ischí:ischí N ! "hand" ! Ref/gra:55
+ishíssaa:ishíssaa N ! "lower torso" ! Ref/gra:55
+ishkulí:ishkulí N ! "finger" ! Ref/gra:55
+ishtá:ishtá N ! "eye" ! Ref/gra:55
+ishúu:ishúu N ! "base of neck" ! Ref/gra:55
+ishúushi:ishúushi N ! "knee" ! Ref/gra:55
+isísa:isísa N ! "buttocks" ! Ref/gra:55
+iskuchkápi:iskuchkápi N ! "wrist" ! Ref/gra:55
+ispaxpá:ispaxpá N ! "fingernail" ! Ref/gra:55
+isshií:isshií N ! "hair" ! Ref/gra:55
+isshulí:isshulí N ! "biceps" ! Ref/gra:55
+istéhpa:istéhpa N ! "navel" ! Ref/gra:55
+itáxpuu:itáxpuu N ! "toenail, claw" ! Ref/gra:55
+itbuú:itbuú N ; ! "sole" ! Ref/gra:55
+itchúa:itchúa N ; ! "side of head" ! Ref/gra:55
+itchúupa:itchúupa N ; ! "shin" ! Ref/gra:55
+=======
 dáakaaxee:daakaaxee N ; ! "back of thigh"
 daasá:daasá N ; ! "heart" ! Ref/gra:54
 dáashuli:dáashuli N ; ! "thigh"
@@ -160,22 +195,8 @@ déeshi:déeshi N ; ! "tongue"
 dúuleepa:dúuleepa N ; ! "jaw"
 dúusa:dúusa N ; ! "rib"
 
-ishtá:ishtá N ; ! "eye" ! Ref/gra:55
-ichí:ichí N ; ! "foot" ! Ref/gra:55
-icheechí:icheechí N ; ! "heel" ! Ref/gra:55
-ichklísa:ichklísa N ; ! "ankle" ! Ref/gra:55
-iláshpi:iláshpi N ; ! "shoulder" ! Ref/gra:55
-isbassá:isbassá N ; ! "thumb" ! Ref/gra:55
-isbaxxáa:isbaxxáa N ; ! "elbow" ! Ref/gra:55
-ischí:ischí N ; ! "hand" ! Ref/gra:55
-ishíssaa:ishíssaa N ; ! "lower torso" ! Ref/gra:55
-ishkulí:ishkulí N ; ! "finger" ! Ref/gra:55
-ishtá:ishtá N ; ! "eye" ! Ref/gra:55
-ishúu:ishúu N ; ! "base of neck" ! Ref/gra:55
-ishúushi:ishúushi N ; ! "knee" ! Ref/gra:55
-isísa:isísa N ; ! "buttocks" ! Ref/gra:55
-askuchkápi:askuchkápi N ; ! Ref/gra:55
 
+>>>>>>> b51566aaf8fc8c6245453f13d1b7ec2984cfc6c7
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
 ! http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
