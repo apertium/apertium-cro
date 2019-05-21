@@ -102,7 +102,6 @@ apá:apá N ; ! "nose" ! Ref/gra:52
 
 dúula:dúula N ; ! "back" ! Ref/gra:54
 dáaka:dáaka N ; ! "child, offspring"
-<<<<<<< HEAD
 dáakaaxee:daakaaxee N ! "back of thigh"
 daasá:daasá N ! "heart" ! Ref/gra:54
 dáashuli:dáashuli N ! "thigh"
@@ -136,17 +135,42 @@ itáxpuu:itáxpuu N ! "toenail, claw" ! Ref/gra:55
 itbuú:itbuú N ; ! "sole" ! Ref/gra:55
 itchúa:itchúa N ; ! "side of head" ! Ref/gra:55
 itchúupa:itchúupa N ; ! "shin" ! Ref/gra:55
-=======
-dáakaaxee:daakaaxee N ; ! "back of thigh"
-daasá:daasá N ; ! "heart" ! Ref/gra:54
-dáashuli:dáashuli N ; ! "thigh"
-dáata:dáata N ; ! "calf of leg"
-datchawuú:datchawuú N ; ! "armpit"
-dáxpa:dáxpa N ; ! "side of hip"
-déeshi:déeshi N ; ! "tongue"
-dúuleepa:dúuleepa N ; ! "jaw"
-dúusa:dúusa N ; ! "rib"
 
+iilápxa:iilápxa N ; ! "father" ! Ref/gra:56
+
+axkúxa:axkúxa N ; ! "inner ear" ! Ref/gra:56
+ahpá:ahpá N ; ! "outer ear" ! Ref/gra:56
+alapálaa:alapálaa N ; ! "buttock" ! Ref/gra:56
+alássheee:alásshee N ; ! "muscle" ! Ref/gra:56
+alaxxaaló:alaxxaaló N ; ! "spine" ! Ref/gra:56
+apásaa:apásaa N ; ! "upper torso" ! Ref/gra:56
+apá:apá N ; ! "nose" ! Ref/gra:56
+apitchúu:apitchúu N ; ! "gall bladder" ! Ref/gra:56
+apitá:apitá N ; ! "liver" ! Ref/gra:56
+axúa:axúa N ; ! "body" ! Ref/gra:56
+axxíi:axxíi N ; ! "forehead" ! Ref/gra:56
+áachi:áachi N ; ! "breast" ! Ref/gra:56
+áali:áali N ; ! "arm" ! Ref/gra:56
+áapa:áapa N ; ! "neck" ! Ref/gra:56
+aashúu:aashúu N ; ! "head" ! Ref/gra:56
+áaxuhka:áaxuhka N ; ! "kidney" ! Ref/gra:56
+eelá:eelá N ; ! "belly" ! Ref/gra:56
+ihkapílii:ihkapílii N ; ! "foretop" ! Ref/gra:56
+ihtá:ihtá N ; ! "molar" ! Ref/gra:56
+íi:íi N ; ! "mouth" ! Ref/gra:56
+ií:ií N ; ! "tooth" ! Ref/gra:56
+íihchii:íihchii N ; ! "beard" ! Ref/gra:56
+íihka:íihka N ; ! "chin" ! Ref/gra:56
+iisá:iisá N ; ! "face" ! Ref/gra:56
+íishpuu:íishpuu N ; ! "abdommen" ! Ref/gra:56
+úushi:úushi N ; ! "rectum" ! Ref/gra:56
+
+aksáa:aksáa N ; ! "parent" ! Ref/gra:56
+akúa:akúa N ; ! "woman's husband's sister" ! Ref/gra:56
+iiká:iiká N ; ! "man's older brother" ! Ref/gra:56
+iilápxa:iilápxa N ; ! "man's father" ! Ref/gra:56
+usshí:usshí N ; ! "man's mother-in-law; tabooed relative" ! Ref/gra:56
+uá:uá N ; ! "wife" ! Ref/gra:56
 
 >>>>>>> b51566aaf8fc8c6245453f13d1b7ec2984cfc6c7
 ! Resources:
