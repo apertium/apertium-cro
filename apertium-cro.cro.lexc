@@ -172,6 +172,38 @@ iilápxa:iilápxa N ; ! "man's father" ! Ref/gra:56
 usshí:usshí N ; ! "man's mother-in-law; tabooed relative" ! Ref/gra:56
 uá:uá N ; ! "wife" ! Ref/gra:56
 
+
+alaachíisa:alaachíisa N ; ! "tendon" ! Ref/gra:57
+alascheewí:alascheewí N ; ! "gland" ! Ref/gra:57
+alashkúu:alashkúu N ; ! "joint" ! Ref/gra:57
+alaxaawí:alaxaawí N ; ! "limb" ! Ref/gra:57
+alaxáa:alaxáa N ; ! "hip bone" ! Ref/gra:57
+alúa:alúa N ; ! "abdomen" ! Ref/gra:57
+aluulí:aluulí N ; ! "flesh" ! Ref/gra:57
+axóoxii:axóoxii N ; ! "knee cap" ! Ref/gra:57
+chiwúsa:chiwúsa N ; ! "brain" ! Ref/gra:57
+dáaxo:dáaxo N ; ! "lung" ! Ref/gra:57
+íaxa:íaxa N ; ! "stomach" ! Ref/gra:57
+píaxiita:píaxiita N ; ! "spleen" ! Ref/gra:57
+shíipa:shíipa N ; ! "intestines" ! Ref/gra:57
+
+duushúu:duushúu N ; ! "chest" ! Ref/gra:57
+chíisa: chíisa N ; ! "tail" ! Ref/gra:57 
+chiláa:chiláa N ; ! "husband" ! Ref/gra:57
+
+! Inalienably Possessed Nouns with Suppletives
+
+awaasúu:awaasúu N ; ! "house" ! Ref/gra:58
+huupá:huupá N ; ! "shoe" ! Ref/gra:58
+bishí:bishí N ; ! "blanket" ! Ref/gra:58
+bishká:bishká N ; ! "dog" ! Ref/gra:58
+alúuta:alúuta N ; ! "arrow" ! Ref/gra:58
+iichíili:iichíili N ; ! "horse" ! Ref/gra:58
+ihkáa:ihkáa N ; ! "mother" ! Ref/gra:58
+buú:buú N ; ! "song" ! Ref/gra:58
+
+
+
 >>>>>>> b51566aaf8fc8c6245453f13d1b7ec2984cfc6c7
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
