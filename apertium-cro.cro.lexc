@@ -30,18 +30,15 @@ LEXICON K
 
 LEXICON POST-CITE
 
-%+taa%<post%>:%>taa S-DET ;               ! -taa `along' PATH
-%+n%<post%>:%>n S-DET ;                   ! -n `at, on; from' LOC,SRC
-
-S-DET ; 
+%+taa%<post%>:%>taa         S-DET ;               ! -taa `along' PATH
+%+n%<post%>:%>n             S-DET ;               ! -n `at, on; from' LOC,SRC
+                            S-DET ; 
 
 LEXICON POST-STEM
 
-%+ss%<post%>:%>ss S-DET ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
-
-%+ko%<post%>:%>ko S-DET ;                 ! -ko `at, to, from' LOC-GEN
-
-S-DET ; 
+%+ss%<post%>:%>ss           S-DET ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
+%+ko%<post%>:%>ko           S-DET ;                 ! -ko `at, to, from' LOC-GEN
+                            S-DET ; 
 
 !LEXICON POST-NONPROD
 !
@@ -53,6 +50,7 @@ S-DET ;
 LEXICON S-DET
 
 %+sh%<det%>:%>sh K  ; 
+%+m%<det%>:%>m   K  ; 
                  K ; 
 
 LEXICON NOMINAL
