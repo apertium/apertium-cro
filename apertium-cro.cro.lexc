@@ -50,13 +50,48 @@ LEXICON N
 %<n%>: POST-CITE ;
 %<n%>: POST-STEM ;
 
-LEXICON PERS-BII
 
-%<prn%>%<pers%>%<sg1%>: # ;  
+LEXICON PERS-II
 
-LEXICON PERS-BÍILU
+ii%<prn%>%<pers%>%<sg1%>:b%>ii # ; 
+ii%<prn%>%<pers%>%<sg2%>:d%>ii # ; 
+ii%<prn%>%<pers%>%<sg3%>:ii # ; 
+ii%<prn%>%<pers%>%<pl1%>:b%>íilu # ; 
+ii%<prn%>%<pers%>%<pl2%>:d%>íilu # ; 
+ii%<prn%>%<pers%>%<pl3%>:íilu # ; 
 
-%<prn%>%<pers%>%<pl1%>: # ;  
+LEXICON PERS-ÍILAA
+
+íilaa%<prn%>%<pers%>%<refl%>%<sp1%>:b%>íilaa # ; 
+íilaa%<prn%>%<pers%>%<refl%>%<sp2%>:d%>íilaa # ; 
+íilaa%<prn%>%<pers%>%<refl%>%<sp3%>:íilaa # ; 
+
+LEXICON PERS-ÍH
+
+íh%<prn%>%<pers%>%<contr%>%<sg1%>:b%>íh # ; 
+íh%<prn%>%<pers%>%<contr%>%<sg2%>:d%>íh # ; 
+íh%<prn%>%<pers%>%<contr%>%<sg3%>:íh # ; 
+íh%<prn%>%<pers%>%<contr%>%<pl1%>:b%>íiluh # ; 
+íh%<prn%>%<pers%>%<contr%>%<pl2%>:d%>íiluh # ; 
+íh%<prn%>%<pers%>%<contr%>%<pl3%>:íiluh # ; 
+
+LEXICON PERS-ÍK
+
+ík%<prn%>%<pers%>%<contr%>%<sg1%>:b%>ík # ; 
+ík%<prn%>%<pers%>%<contr%>%<sg2%>:d%>ík # ; 
+ík%<prn%>%<pers%>%<contr%>%<sg3%>:ík # ; 
+ík%<prn%>%<pers%>%<contr%>%<pl1%>:b%>íiluk # ; 
+ík%<prn%>%<pers%>%<contr%>%<pl2%>:d%>íiluk # ; 
+ík%<prn%>%<pers%>%<contr%>%<pl3%>:íiluk # ; 
+
+LEXICON PERS-IILÉEN 
+
+iiléen%<prn%>%<pers%>%<emph%>%<sg1%>:b%>iiléen # ; 
+iiléen%<prn%>%<pers%>%<emph%>%<sg2%>:d%>iiléen # ; 
+iiléen%<prn%>%<pers%>%<emph%>%<sg3%>:iiléen # ; 
+iiléen%<prn%>%<pers%>%<emph%>%<pl1%>:b%>íiluun # ; 
+iiléen%<prn%>%<pers%>%<emph%>%<pl2%>:d%>íiluun # ; 
+iiléen%<prn%>%<pers%>%<emph%>%<pl3%>:íiluun # ; 
 
 LEXICON SPOST 
 
@@ -77,9 +112,16 @@ biaxsée:biaxsée SPOST ; ! "under"
 
 LEXICON Pronouns 
 
-bii:bii PERS-BII ; ! "I" 
-bíilu:bíilu PERS-BÍILU ; ! "I" 
 
+PERS-II ;
+
+PERS-ÍILAA ;
+
+PERS-ÍH ;
+
+PERS-ÍK ;
+
+PERS-IILÉEN ;
 
 
 LEXICON Nouns
