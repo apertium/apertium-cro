@@ -1,6 +1,8 @@
 import sys, re
 
 for line in sys.stdin.readlines():
+	if line.strip() == '':
+		continue
 	line = line.strip('\n')
 	line = re.sub(r'\t\t*', r'\t', line)
 
