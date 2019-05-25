@@ -19,9 +19,10 @@ Multichar_Symbols
 
 LEXICON Root
 
-Nouns ;
 Pronouns ; 
 Postpositions ; 
+Nouns ;
+Proper ; 
 
 LEXICON K 
 
@@ -29,14 +30,15 @@ LEXICON K
 
 LEXICON POST-CITE
 
-%+taa%<post%>:%>taa K ;               ! -taa `along' PATH
-%+n%<post%>:%>n K ;                   ! -n `at, on; from' LOC,SRC
+%+taa%<post%>:%>taa         S-DET ;               ! -taa `along' PATH
+%+n%<post%>:%>n             S-DET ;               ! -n `at, on; from' LOC,SRC
+                            S-DET ; 
 
 LEXICON POST-STEM
 
-%+ss%<post%>:%>ss K ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
-
-%+ko%<post%>:%>ko K ;                 ! -ko `at, to, from' LOC-GEN
+%+ss%<post%>:%>ss           S-DET ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
+%+ko%<post%>:%>ko           S-DET ;                 ! -ko `at, to, from' LOC-GEN
+                            S-DET ; 
 
 !LEXICON POST-NONPROD
 !
@@ -45,18 +47,71 @@ LEXICON POST-STEM
 !%+chiisaa%<post%>:%>chiisaa K ;       ! -chiisaa `right there' LOC-SPEC
 !%+htée%<post%>:%>htée K ;             ! -htée `right there' LOC-SPEC
 
+LEXICON S-DET
+
+%+sh%<det%>:%>sh K  ; 
+%+m%<det%>:%>m   K  ; 
+                 K ; 
+
+LEXICON NOMINAL
+
+POST-CITE ;
+POST-STEM ;
+
 LEXICON N
 
-%<n%>: POST-CITE ;
-%<n%>: POST-STEM ;
+%<n%>: NOMINAL ;
 
-LEXICON PERS-BII
+LEXICON PROP-F
 
-%<prn%>%<pers%>%<sg1%>: # ;  
+%<np%>%<f%>: NOMINAL ; 
 
-LEXICON PERS-BÍILU
+LEXICON PROP-M
 
-%<prn%>%<pers%>%<pl1%>: # ;  
+%<np%>%<m%>: NOMINAL ; 
+
+
+LEXICON PERS-II
+
+ii%<prn%>%<pers%>%<sg1%>:b%>ii # ; 
+ii%<prn%>%<pers%>%<sg2%>:d%>ii # ; 
+ii%<prn%>%<pers%>%<sg3%>:ii # ; 
+ii%<prn%>%<pers%>%<pl1%>:b%>íilu # ; 
+ii%<prn%>%<pers%>%<pl2%>:d%>íilu # ; 
+ii%<prn%>%<pers%>%<pl3%>:íilu # ; 
+
+LEXICON PERS-ÍILAA
+
+íilaa%<prn%>%<pers%>%<refl%>%<sp1%>:b%>íilaa # ; 
+íilaa%<prn%>%<pers%>%<refl%>%<sp2%>:d%>íilaa # ; 
+íilaa%<prn%>%<pers%>%<refl%>%<sp3%>:íilaa # ; 
+
+LEXICON PERS-ÍH
+
+íh%<prn%>%<pers%>%<contr%>%<sg1%>:b%>íh # ; 
+íh%<prn%>%<pers%>%<contr%>%<sg2%>:d%>íh # ; 
+íh%<prn%>%<pers%>%<contr%>%<sg3%>:íh # ; 
+íh%<prn%>%<pers%>%<contr%>%<pl1%>:b%>íiluh # ; 
+íh%<prn%>%<pers%>%<contr%>%<pl2%>:d%>íiluh # ; 
+íh%<prn%>%<pers%>%<contr%>%<pl3%>:íiluh # ; 
+
+LEXICON PERS-ÍK
+
+ík%<prn%>%<pers%>%<contr%>%<sg1%>:b%>ík # ; 
+ík%<prn%>%<pers%>%<contr%>%<sg2%>:d%>ík # ; 
+ík%<prn%>%<pers%>%<contr%>%<sg3%>:ík # ; 
+ík%<prn%>%<pers%>%<contr%>%<pl1%>:b%>íiluk # ; 
+ík%<prn%>%<pers%>%<contr%>%<pl2%>:d%>íiluk # ; 
+ík%<prn%>%<pers%>%<contr%>%<pl3%>:íiluk # ; 
+
+LEXICON PERS-IILÉEN 
+
+iiléen%<prn%>%<pers%>%<emph%>%<sg1%>:b%>iiléen # ; 
+iiléen%<prn%>%<pers%>%<emph%>%<sg2%>:d%>iiléen # ; 
+iiléen%<prn%>%<pers%>%<emph%>%<sg3%>:iiléen # ; 
+iiléen%<prn%>%<pers%>%<emph%>%<pl1%>:b%>íiluun # ; 
+iiléen%<prn%>%<pers%>%<emph%>%<pl2%>:d%>íiluun # ; 
+iiléen%<prn%>%<pers%>%<emph%>%<pl3%>:íiluun # ; 
 
 LEXICON SPOST 
 
@@ -77,9 +132,16 @@ biaxsée:biaxsée SPOST ; ! "under"
 
 LEXICON Pronouns 
 
-bii:bii PERS-BII ; ! "I" 
-bíilu:bíilu PERS-BÍILU ; ! "I" 
 
+PERS-II ;
+
+PERS-ÍILAA ;
+
+PERS-ÍH ;
+
+PERS-ÍK ;
+
+PERS-IILÉEN ;
 
 
 LEXICON Nouns
@@ -102,36 +164,36 @@ apá:apá N ; ! "nose" ! Ref/gra:52
 
 dúula:dúula N ; ! "back" ! Ref/gra:54
 dáaka:dáaka N ; ! "child, offspring"
-dáakaaxee:daakaaxee N ! "back of thigh"
-daasá:daasá N ! "heart" ! Ref/gra:54
-dáashuli:dáashuli N ! "thigh"
-dáata:dáata N ! "calf of leg"
-datchawuú:datchawuú N ! "armpit"
-dáxpa:dáxpa N ! "side of hip"
-déeshi:déeshi N ! "tongue"
-dúuleepa:dúuleepa N ! "jaw"
-dúusa:dúusa N ! "rib"
+dáakaaxee:daakaaxee N ; ! "back of thigh"
+daasá:daasá N ; ! "heart" ! Ref/gra:54
+dáashuli:dáashuli N ; ! "thigh"
+dáata:dáata  N ; ! "calf of leg"
+datchawuú:datchawuú  N ; ! "armpit"
+dáxpa:dáxpa  N ; ! "side of hip"
+déeshi:déeshi  N ; ! "tongue"
+dúuleepa:dúuleepa  N ; ! "jaw"
+dúusa:dúusa  N ; ! "rib"
 
-ishtá:ishtá N ! "eye" ! Ref/gra:55
-ichí:ichí N ! "foot" ! Ref/gra:55
-icheechí:icheechí N ! "heel" ! Ref/gra:55
-ichklísa:ichklísa N ! "ankle" ! Ref/gra:55
-iláshpi:iláshpi N ! "shoulder" ! Ref/gra:55
-isbassá:isbassá N ! "thumb" ! Ref/gra:55
-isbaxxáa:isbaxxáa N ! "elbow" ! Ref/gra:55
-ischí:ischí N ! "hand" ! Ref/gra:55
-ishíssaa:ishíssaa N ! "lower torso" ! Ref/gra:55
-ishkulí:ishkulí N ! "finger" ! Ref/gra:55
-ishtá:ishtá N ! "eye" ! Ref/gra:55
-ishúu:ishúu N ! "base of neck" ! Ref/gra:55
-ishúushi:ishúushi N ! "knee" ! Ref/gra:55
-isísa:isísa N ! "buttocks" ! Ref/gra:55
-iskuchkápi:iskuchkápi N ! "wrist" ! Ref/gra:55
-ispaxpá:ispaxpá N ! "fingernail" ! Ref/gra:55
-isshií:isshií N ! "hair" ! Ref/gra:55
-isshulí:isshulí N ! "biceps" ! Ref/gra:55
-istéhpa:istéhpa N ! "navel" ! Ref/gra:55
-itáxpuu:itáxpuu N ! "toenail, claw" ! Ref/gra:55
+ishtá:ishtá  N ; ! "eye" ! Ref/gra:55
+ichí:ichí  N ; ! "foot" ! Ref/gra:55
+icheechí:icheechí  N ; ! "heel" ! Ref/gra:55
+ichklísa:ichklísa  N ; ! "ankle" ! Ref/gra:55
+iláshpi:iláshpi  N ; ! "shoulder" ! Ref/gra:55
+isbassá:isbassá  N ; ! "thumb" ! Ref/gra:55
+isbaxxáa:isbaxxáa  N ; ! "elbow" ! Ref/gra:55
+ischí:ischí  N ; ! "hand" ! Ref/gra:55
+ishíssaa:ishíssaa  N ; ! "lower torso" ! Ref/gra:55
+ishkulí:ishkulí  N ; ! "finger" ! Ref/gra:55
+ishtá:ishtá  N ; ! "eye" ! Ref/gra:55
+ishúu:ishúu  N ; ! "base of neck" ! Ref/gra:55
+ishúushi:ishúushi  N ; ! "knee" ! Ref/gra:55
+isísa:isísa  N ; ! "buttocks" ! Ref/gra:55
+iskuchkápi:iskuchkápi  N ; ! "wrist" ! Ref/gra:55
+ispaxpá:ispaxpá  N ; ! "fingernail" ! Ref/gra:55
+isshií:isshií  N ; ! "hair" ! Ref/gra:55
+isshulí:isshulí  N ; ! "biceps" ! Ref/gra:55
+istéhpa:istéhpa  N ; ! "navel" ! Ref/gra:55
+itáxpuu:itáxpuu  N ; ! "toenail, claw" ! Ref/gra:55
 itbuú:itbuú N ; ! "sole" ! Ref/gra:55
 itchúa:itchúa N ; ! "side of head" ! Ref/gra:55
 itchúupa:itchúupa N ; ! "shin" ! Ref/gra:55
@@ -188,7 +250,7 @@ píaxiita:píaxiita N ; ! "spleen" ! Ref/gra:57
 shíipa:shíipa N ; ! "intestines" ! Ref/gra:57
 
 duushúu:duushúu N ; ! "chest" ! Ref/gra:57
-chíisa: chíisa N ; ! "tail" ! Ref/gra:57 
+chíisa:chíisa N ; ! "tail" ! Ref/gra:57 
 chiláa:chiláa N ; ! "husband" ! Ref/gra:57
 
 ! Inalienably Possessed Nouns with Suppletives
@@ -202,10 +264,21 @@ iichíili:iichíili N ; ! "horse" ! Ref/gra:58
 ihkáa:ihkáa N ; ! "mother" ! Ref/gra:58
 buú:buú N ; ! "song" ! Ref/gra:58
 
+bacheé:bacheé N ; ! "man" ! Ref/gra:??
+
+LEXICON Proper 
+
+Emily:Emily PROP-F ; 
+John:John PROP-M ; 
+Jesus:Jesus PROP-M ; 
+Jeffrey:Jeffrey PROP-M ; 
+Mary:Mary PROP-F ; 
+Becky:Becky PROP-F ; 
+Alvin:Alvin PROP-M ; 
+Joe:Joe PROP-M ; 
+Otto:Otto PROP-M ; 
 
 
-
->>>>>>> b51566aaf8fc8c6245453f13d1b7ec2984cfc6c7
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
 ! http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
