@@ -281,6 +281,9 @@ Otto:Otto PROP-M ;
 LEXICON Verbs
 ! need to format 
 shuá:shuá V ; ! "spit"
+kalée:kalée V ; ! "vomit"
+xapí:xapí V ; ! "lie down"
+chipí:chipí V ; ! "drown"
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
