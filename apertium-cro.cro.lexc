@@ -28,6 +28,15 @@ LEXICON K
 
 # ; 
 
+LEXICON DEM
+
+# ;
+
+LEXICON V
+
+# ;
+
+
 LEXICON POST-CITE
 
 %+taa%<post%>:%>taa         S-DET ;               ! -taa `along' PATH
@@ -284,6 +293,11 @@ shuá:shuá V ; ! "spit"
 kalée:kalée V ; ! "vomit"
 xapí:xapí V ; ! "lie down"
 chipí:chipí V ; ! "drown"
+
+LEXICON Demonstratives
+hilaá:hilaá DEM ; ! "just now, right at that time"
+
+
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
