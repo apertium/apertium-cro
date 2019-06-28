@@ -170,6 +170,19 @@ cheéta:cheéta N ; ! "wolf ! Ref/gra:43
 dachká:dachká N ; ! "twin ! Ref/gra:43
 iitchí:iitchí N ; ! "cane ! Ref/gra:43
 
+apáaka:apáaka N ; ! "mosquito" ! Ref/gra:44
+biláxa:biláxa N ; ! "drum, bucket"
+chíilapi:chíilapi N ; ! "bull"
+dakáaka:dakáaka N ; ! "bird"
+póopahta:póopahta N ; ! "owl"
+xoóxaashi:xoóxaashi N ; ! "corn"
+
+chiwáwuuli:chiwáwuuli N ; "rat"
+ditchiláachi:ditchiláachi N ; ! "dangerous"
+ilíchile:ilíchile N ; ! "echo"
+
+
+
 óosshee:óosshee N ; ! "food" ! Ref/gra:52
 apá:apá N ; ! "nose" ! Ref/gra:52
 
@@ -278,6 +291,8 @@ buú:buú N ; ! "song" ! Ref/gra:58
 bacheé:bacheé N ; ! "man" ! Ref/gra:??
 ísshi:ísshi N ; ! "case, outer cover" ! Ref/gra:91
 óhkapi:óhkapi N ; ! "basin"
+
+alápee:alápee N ; ! "forest fire, range fire"
 
 
 LEXICON Proper 
@@ -418,6 +433,29 @@ alattachí:alattachí V ; ! "break with foot"
 alaxaashí:alaxaashí V ; ! "cling to the ground"
 alaxichí:alaxichí V ; ! "stop suddenly"
 alaxsachí:alaxsachí V ; ! "step in (soft matter)" ! Ref/gra:93
+
+!alá - only with statives
+alá:alá V ; ! "be frostbitten" ! Ref/gra:94
+aláchishi:aláchishi V ; ! "be cold, freezing"
+aláchuuchi:aláchuuchi V ; ! "singed"
+aláhpupi:aláhpupi V ; ! "scorched"
+alákkua:alákkua V ; ! "smoked (meat)"
+alápaapi:alápaapi V ; ! "smart, burn, sting"
+alátchii:alátchii V ; ! "scorched"
+aláttachi:aláttachi V ; ! "be cold"
+aláxchiia:aláxchiia V ; ! "browned over open fire"
+aláxii:aláxii V ; ! "burned"
+aláxxu:aláxxu V ; ! "fried"
+alée:alée V ; ! "hot (weather)"
+alóxxaxxi:alóxxaxxi V ; ! "feel hot"
+dáachiki:dáachiki V ; ! "suck on"
+
+
+dáachilee:dáachilee V ; ! "draw, attract toward"
+dáachipi:dáachipi V ; ! "lick, taste"
+dáakoopi:dáakoopi V ; ! "break through with teeth"
+
+
 ! derived reflexivs ! Ref/gra:102
 ihchipúa:ihchipúa V ; ! "jump"
 ihchisshí:ihchisshí V ; ! "rest"
