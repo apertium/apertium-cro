@@ -1,1 +1,16 @@
 122	_	<o_sg2><s_sg1>dichí<v><tv>	dii-waa-lichí
+! syntactic reflexives
+101	_	<o_sg1><s_sg1>kuxshí<v><tv>	b-ihchí-wah-kuxshi
+101	_	<o_sg2><s_sg2>kuxshí<v><tv>	d-íhchi-lah-kuxshi
+101	_	<o_sg3><s_sg3>kuxshí<v><tv>	ihchi-kuxshí
+101	_	<o_pl1><s_pl1>kuxshí<v><tv>	b-ihchi-wah-kuxs-úu
+101	_	<o_pl2><s_pl2>kuxshí<v><tv>	d-íhchi-lah-kuxs-uu
+101	_	<o_pl3><s_pl3>kuxshí<v><tv>	ihchi-kuxs-úu
+! derived reflexives (intransitive)
+102	_	<s_sg1>ihkalaá<v><int>		b-ihkalaá
+102	_	<s_sg2>ihkalaá<v><int>		d-íhkalaa
+102	_	<s_sg3>ihkalaá<v><int>		ihkalaá
+102	_	<s_pl1>ihkalaá<v><int>		b-ihkalaá-u
+102	_	<s_pl2>ihkalaá<v><int>		d-íhkalaa-u
+102	_	<s_pl3>ihkalaá<v><int>		ihkalaá-u
+
