@@ -25,3 +25,20 @@
 104	_	<por>húu<v>			óo ! (aa-húu)
 104	_	<por>iikuschí<v>		aa-iikuschí
 
+124	_	<sta><s_sg1>háchka<v>		bii-háchka-k
+124	_	<sta><s_sg2>háchka<v>		dii-háchka-k
+124	_	<sta><s_sg3>háchka<v>		háchka-k
+124	_	<sta><s_pl1>háchka<v>		balee-háchka-k
+124	_	<sta><s_pl2>háchka<v>		dii-háchk-uu-k
+124	_	<sta><s_pl3>háchka<v>		háchk-uu-k
+! questionable tagging
+124	_	<sta><s_sg1>píishi<loc><v>	ba-pshée-n
+124	_	<sta><s_sg2>píishi<loc><v>	dá-psheen
+! predicate nominal ! declarative form -> final -k
+125	_	<s_sg1>bacheé<dec>		bii-wacheé-k
+125	_	<s_sg2>bacheé<dec>		dii-wacheé-k
+125	_	<s_sg3>bacheé<dec>		bacheé-k
+125	_	<s_pl1>bacheé<dec>		balee-wacheé-k
+125	_	<s_pl2>bacheé<dec>		dii-wacheé-o-k
+125	_	<s_pl3>bacheé<dec>		bacheé-o-k
+
