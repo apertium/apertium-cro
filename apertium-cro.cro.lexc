@@ -50,7 +50,7 @@ LEXICON POST-STEM
 %+ss%<post%>:%>ss           S-DET ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
 %+ko%<post%>:%>ko           S-DET ;                 ! -ko `at, to, from' LOC-GEN
 !might need to go in non-productive
-%+kísshi%<post%>:%>kísshi   S-DET ;		    ! -kísshi 'casually, carefree' SPO
+!%+kísshi%<post%>:%>kísshi   S-DET ;		    ! -kísshi 'casually, carefree' SPO
 
 
 
@@ -62,7 +62,7 @@ S-DET ;
 !%+hchée%<post%>:%>hchée K ;           ! -hchée `here and there' DIST
 !%+chiisaa%<post%>:%>chiisaa K ;       ! -chiisaa `right there' LOC-SPEC
 !%+htée%<post%>:%>htée K ;             ! -htée `right there' LOC-SPEC
-
+!%+kísshi%<post%>:%>kísshi              ! -kísshi 'casually, carefree' SPO
 LEXICON S-DET
 
 %+sh%<det%>:%>sh K  ; 
