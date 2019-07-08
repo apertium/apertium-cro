@@ -49,7 +49,12 @@ LEXICON POST-STEM
 
 %+ss%<post%>:%>ss           S-DET ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
 %+ko%<post%>:%>ko           S-DET ;                 ! -ko `at, to, from' LOC-GEN
-                            S-DET ; 
+!might need to go in non-productive
+%+kísshi%<post%>:%>kísshi   S-DET ;		    ! -kísshi 'casually, carefree' SPO
+
+
+
+S-DET ; 
 
 !LEXICON POST-NONPROD
 !
