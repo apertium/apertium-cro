@@ -62,12 +62,18 @@ S-DET ;
 !%+hchée%<post%>:%>hchée K ;           ! -hchée `here and there' DIST
 !%+chiisaa%<post%>:%>chiisaa K ;       ! -chiisaa `right there' LOC-SPEC
 !%+htée%<post%>:%>htée K ;             ! -htée `right there' LOC-SPEC
-!%+kísshi%<post%>:%>kísshi              ! -kísshi 'casually, carefree' SPO
+!%+kísshi%<post%>:%>kísshi             ! -kísshi 'casually, carefree' SPO
+! not sure about the pos tag after gloss at the moment
+!%+hili%<post%>:hili K ;	       ! -hili 'very, very much'
+!%+táahili%<post%>:táahili K ;	       ! -táahili 'completely, totally'
+!%+táali%<post%>:táali K ;	       ! -táali 'completely, totally' Dir/LR
+
+
 LEXICON S-DET
 
 %+sh%<det%>:%>sh K  ; 
 %+m%<det%>:%>m   K  ; 
-                 K ; 
+%+kísshi%<post%>:%>kísshi   S-DET ;                 ! -kísshi 'casually, carefree' SPO                 K ; 
 
 LEXICON NOMINAL
 
