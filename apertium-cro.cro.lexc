@@ -49,8 +49,6 @@ LEXICON POST-STEM
 
 %+ss%<post%>:%>ss           S-DET ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
 %+ko%<post%>:%>ko           S-DET ;                 ! -ko `at, to, from' LOC-GEN
-!might need to go in non-productive
-!%+kísshi%<post%>:%>kísshi   S-DET ;		    ! -kísshi 'casually, carefree' SPO
 
 
 
@@ -65,15 +63,25 @@ S-DET ;
 !%+kísshi%<post%>:%>kísshi             ! -kísshi 'casually, carefree' SPO
 ! not sure about the pos tag after gloss at the moment
 !%+hili%<post%>:hili K ;	       ! -hili 'very, very much'
+!%+aachí%<post%>:aachí K ; 	       ! -aachí 'approximative'
+!%+lichí%<post%>:lichí K ;	       ! -lichí 'approximative' Dir/LR
+!%+aahi%<post%>:aahi K ;	       ! -aahi 'distributive'
+!%+shta%<post%>:shta K ; 	       ! -shta 'very'
+!%+kaáshi%<post%>:kaáshi K ;	       ! -kaáshi 'very much, really (augmentative)'
+!%+káata%<post%>:káata K ; 	       ! -káata 'diminutive'
 !%+táahili%<post%>:táahili K ;	       ! -táahili 'completely, totally'
 !%+táali%<post%>:táali K ;	       ! -táali 'completely, totally' Dir/LR
+!%+laash%<post%>:laash K ; 	       ! -laash 'very (sentence final)'
+!%+i%<post%>:i K ;		       ! -i 'habitual'
+!%+ta%<post%>:ta K ;		       ! -ta 'appear to, seem'
+!%+ta%<post%>:ta K ;		       ! -ta 'distributive plural'
+!%+dee%<post%>:dee K ;		       ! -dee 'inchoative'
 
 
 LEXICON S-DET
 
 %+sh%<det%>:%>sh K  ; 
 %+m%<det%>:%>m   K  ; 
-%+kísshi%<post%>:%>kísshi   S-DET ;                 ! -kísshi 'casually, carefree' SPO                 K ; 
 
 LEXICON NOMINAL
 
