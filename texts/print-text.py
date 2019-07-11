@@ -3,6 +3,8 @@ lno=1
 for line in sys.stdin.readlines():
 	if line.strip() == '':
 		continue
+	if line[0] == '#': 
+		continue
 	line = line.strip('\n')
 	line = re.sub(r'\t\t*', r'\t', line)
 	line = re.sub(r'  +', r'\t', line)
