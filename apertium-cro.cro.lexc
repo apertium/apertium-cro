@@ -6,6 +6,7 @@ Multichar_Symbols
 %<prn%>             ! Pronoun
 %<post%>            ! Postposition
 %<spost%>           ! Separable postposition
+%<pre%>		    ! Pre-position
 
 %<pl%>              ! Plural
 %<sg%>              ! Singular
@@ -49,7 +50,6 @@ LEXICON POST-STEM
 
 %+ss%<post%>:%>ss           S-DET ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
 %+ko%<post%>:%>ko           S-DET ;                 ! -ko `at, to, from' LOC-GEN
-
 
 
 S-DET ; 
@@ -145,7 +145,7 @@ iiléen%<prn%>%<pers%>%<emph%>%<pl3%>:íiluun # ;
 
 LEXICON SPOST 
 
-%<spost%>: # ; 
+%<spost%>: # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
