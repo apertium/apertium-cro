@@ -40,17 +40,30 @@ TARGETS_COMMON =			\
 .deps/$(LANG1).LR.lexc.hfst: .deps/$(LANG1).LR.lexc
 	hfst-lexc $< -o $@ -v
 
-.deps/$(LANG1).RL.hfst: .deps/$(LANG1).RL.lexc.hfst .deps/$(LANG1).twol.hfst
+.deps/$(LANG1).RL.seg.hfst: .deps/$(LANG1).RL.lexc.hfst .deps/$(LANG1).twol.hfst 
 	hfst-compose-intersect -1 .deps/$(LANG1).RL.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
-.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).twol.hfst
+.deps/$(LANG1).LR.seg.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).twol.hfst 
 	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
+.deps/$(LANG1).RL.hfst: .deps/$(LANG1).RL.seg.hfst .deps/$(LANG1).mor.twol.hfst
+	hfst-compose-intersect -1 .deps/$(LANG1).RL.seg.hfst -2 .deps/$(LANG1).mor.twol.hfst -o $@
+
+#.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.seg.hfst .deps/$(LANG1).mor.twol.hfst
+#	hfst-compose-intersect -1 .deps/$(LANG1).LR.seg.hfst -2 .deps/$(LANG1).mor.twol.hfst -o $@
+
+.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.seg.hfst .deps/$(LANG1).mor.twol.hfst
+	hfst-compose-intersect -1 .deps/$(LANG1).LR.seg.hfst -2 .deps/$(LANG1).mor.twol.hfst -o $@
+
+
+.deps/$(LANG1).mor.twol.hfst: $(BASENAME).$(LANG1).mor.twol
+	hfst-twolc $< -o $@
+
 $(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
-	hfst-fst2fst -O $< -o $@
+	hfst-fst2fst -w $< -o $@
 
 $(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst
-	hfst-invert $< | hfst-fst2fst -O -o $@
+	hfst-invert $< | hfst-fst2fst -w -o $@
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.hfst
 	hfst-fst2txt $< | gzip -9 -c -n > $@
@@ -81,7 +94,7 @@ debug: .deps/$(LANG1).LR-debug.hfst .deps/$(LANG1).lexc.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).LR-debug.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
 .deps/$(LANG1).lexc.hfst: .deps/$(LANG1).RL.lexc.hfst
-	hfst-fst2fst -O -i $< -o $@
+	hfst-fst2fst -w -i $< -o $@
 
 ###############################################################################
 ## Disambiguation rules
