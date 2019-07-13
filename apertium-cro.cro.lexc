@@ -3,15 +3,31 @@
 Multichar_Symbols
 
 %<n%>               ! Noun
+%<v%>
+
 %<prn%>             ! Pronoun
 %<post%>            ! Postposition
 %<spost%>           ! Separable postposition
-%<pre%>		    ! Pre-position
+
+
+%<s_sg1%>
+%<s_sg2%>
+%<s_sp3%>
+%<s_pl1%>
+%<s_pl2%>
+
 
 %<pl%>              ! Plural
 %<sg%>              ! Singular
 
 %>                  ! Morpheme boundary
+
+@U.AGR.SG1@         ! Agreement 
+@U.AGR.SG2@  
+@U.AGR.SG3@
+@U.AGR.PL1@
+@U.AGR.PL2@
+@U.AGR.PL3@
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -27,6 +43,10 @@ Nouns ;
 Verbs ;
 Proper ; 
 
+Prefixes ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON K 
 
 # ; 
@@ -39,6 +59,77 @@ LEXICON V
 
 # ;
 
+LEXICON Prefixes
+
+
+PREF-ACT-VII ;
+PREF-ACT-VIII ;
+
+
+LEXICON PREF-ACT-VII ! Table 6.14
+
+!------------------------------------------------!--------------------------------------------------!
+! SINGULAR                                       ! PLURAL                                           !
+!------------------------------------------------!--------------------------------------------------!
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@aw%> STEMS-V-VII ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@aw%> STEMS-V-VII ;
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@al%> STEMS-V-VII ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@al%> STEMS-V-VII ;
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@     STEMS-V-VII ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@     STEMS-V-VII ;
+!------------------------------------------------!--------------------------------------------------!
+
+
+LEXICON PREF-ACT-VIII ! Table 6.15
+
+!------------------------------------------------!--------------------------------------------------!
+! SINGULAR                                       ! PLURAL                                           !
+!------------------------------------------------!--------------------------------------------------!
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@b%> STEMS-V-VIII ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@b%> STEMS-V-VIII ; 
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@d%> STEMS-V-VIII ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@d%> STEMS-V-VIII ; 
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@    STEMS-V-VIII ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@    STEMS-V-VIII ;
+!------------------------------------------------!--------------------------------------------------!
+
+LEXICON SUFF-ACT-NUM-SG 
+
+# ;
+
+LEXICON SUFF-ACT-VII-NUM-PL 
+
+! We have to work out what to do here phonologically:
+!   - íaxua: awíaxua / awíaxuo / íaxuo
+!   - óoli: awóoli / awóoluu / óoluu
+!   - íkaa: awákaa / awákuu / íkuu
+! normally word final vowel is dropped for the plural morpheme [-uu]
+! but if the final vowel of the UR is low, like [a], the -uu is dropped to -oo
+! also, when there are multiple vowels in succession at the end of the UR, the vowel is shortened, so it becomes -u
+! there does not appear to be any bleeding/feeding interaction between the two, so they can both apply
+
+%<pl%>:%>o # ; 
+
+LEXICON SUFF-ACT-VIII-NUM-PL 
+! Same rules as above ? 
+
+%<pl%>:%>o # ; 
+
+LEXICON SUFF-ACT-VII
+
+@U.AGR.SG1@%<v%>:@U.AGR.SG1@ SUFF-ACT-NUM-SG ;
+@U.AGR.SG2@%<v%>:@U.AGR.SG2@ SUFF-ACT-NUM-SG ;
+@U.AGR.SG3@%<v%>:@U.AGR.SG3@ SUFF-ACT-NUM-SG  ;
+@U.AGR.PL1@%<v%>:@U.AGR.PL1@ SUFF-ACT-VII-NUM-PL ;
+@U.AGR.PL2@%<v%>:@U.AGR.PL2@ SUFF-ACT-VII-NUM-PL ;
+@U.AGR.PL3@%<v%>:@U.AGR.PL3@ SUFF-ACT-VII-NUM-PL  ;
+
+LEXICON SUFF-ACT-VIII
+
+@U.AGR.SG1@%<v%>:@U.AGR.SG1@ SUFF-ACT-NUM-SG ;
+@U.AGR.SG2@%<v%>:@U.AGR.SG2@ SUFF-ACT-NUM-SG ;
+@U.AGR.SG3@%<v%>:@U.AGR.SG3@ SUFF-ACT-NUM-SG  ;
+@U.AGR.PL1@%<v%>:@U.AGR.PL1@ SUFF-ACT-VIII-NUM-PL ;
+@U.AGR.PL2@%<v%>:@U.AGR.PL2@ SUFF-ACT-VIII-NUM-PL ;
+@U.AGR.PL3@%<v%>:@U.AGR.PL3@ SUFF-ACT-VIII-NUM-PL  ;
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON POST-CITE
 
@@ -50,9 +141,7 @@ LEXICON POST-STEM
 
 %+ss%<post%>:%>ss           S-DET ;                 ! -ss(aa) `to, toward; from' GOAL,SRC
 %+ko%<post%>:%>ko           S-DET ;                 ! -ko `at, to, from' LOC-GEN
-
-
-S-DET ; 
+                            S-DET ; 
 
 !LEXICON POST-NONPROD
 !
@@ -325,6 +414,20 @@ Becky:Becky PROP-F ;
 Alvin:Alvin PROP-M ; 
 Joe:Joe PROP-M ; 
 Otto:Otto PROP-M ; 
+
+
+LEXICON STEMS-V-VII
+
+íaxua:íaxua SUFF-ACT-VII ; ! "cover"
+óoli:óoli SUFF-ACT-VII ; ! "wait for"
+íkaa:íkaa SUFF-ACT-VII ; ! "see"
+
+LEXICON STEMS-V-VIII
+
+iikuschí:iikuschí SUFF-ACT-VIII ; ! "come out"
+ischúushi:ischúushi SUFF-ACT-VIII ; ! "aim at"
+ipúa:ipúa SUFF-ACT-VIII ; ! "run over"
+ilíi:ilíi SUFF-ACT-VIII ; ! "speak"
 
 LEXICON Verbs
 ! need to format 
