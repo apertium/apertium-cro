@@ -82,9 +82,12 @@ LEXICON PREF-STAT ! Table 6.3 [p.124]
 !------------------------------------------------!----------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                             !
 !------------------------------------------------!----------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@bii%> STEMS-STAT ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@balee%> STEMS-STAT ;
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@dii%> STEMS-STAT ; @U.AGR.PL2@%<s_pl1%>:@U.AGR.PL2@dii%>   STEMS-STAT ;
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@      STEMS-STAT ; @U.AGR.PL3@%<s_pl1%>:@U.AGR.PL3@balee%> STEMS-STAT ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@bii%>	STEMS-STAT ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@balee%>	STEMS-STAT ;
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@dii%>	STEMS-STAT ; 
+@U.AGR.PL2@%<s_pl1%>:@U.AGR.PL2@dii%>	STEMS-STAT ;
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@	STEMS-STAT ; 
+@U.AGR.PL3@%<s_pl1%>:@U.AGR.PL3@balee%>	STEMS-STAT ;
 !------------------------------------------------!----------------------------------------------------!
 
 LEXICON PREF-ACT-I ! Table 6.8 [p.128]
@@ -92,9 +95,12 @@ LEXICON PREF-ACT-I ! Table 6.8 [p.128]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@bu%>   STEMS-V-I ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@bu%>   STEMS-V-I ;
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@di%>   STEMS-V-I ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@di%>   STEMS-V-I ;
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@       STEMS-V-I ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@       STEMS-V-I ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@bu%>   STEMS-V-I ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@bu%>   STEMS-V-I ;
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@di%>   STEMS-V-I ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@di%>   STEMS-V-I ;
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@       STEMS-V-I ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@       STEMS-V-I ;
 !------------------------------------------------!--------------------------------------------------!
 
 LEXICON PREF-ACT-II ! Table 6.9 [p.128]
@@ -102,9 +108,12 @@ LEXICON PREF-ACT-II ! Table 6.9 [p.128]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@ba%>  STEMS-V-II ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@ba%>  STEMS-V-II ;
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@da%>  STEMS-V-II ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@da%>  STEMS-V-II ;
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@      STEMS-V-II ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@      STEMS-V-II ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@ba%>  STEMS-V-II ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@ba%>  STEMS-V-II ;
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@da%>  STEMS-V-II ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@da%>  STEMS-V-II ;
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@      STEMS-V-II ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@      STEMS-V-II ;
 !------------------------------------------------!--------------------------------------------------!
 
 LEXICON PREF-ACT-III ! Table 6.10 [p.128]
@@ -112,9 +121,12 @@ LEXICON PREF-ACT-III ! Table 6.10 [p.128]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@b%>  STEMS-V-III ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@b%>  STEMS-V-III ;
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@d%>  STEMS-V-III ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@d%>  STEMS-V-III ;
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@     STEMS-V-III ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@     STEMS-V-III ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@b%>  STEMS-V-III ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@b%>  STEMS-V-III ;
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@d%>  STEMS-V-III ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@d%>  STEMS-V-III ;
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@     STEMS-V-III ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@     STEMS-V-III ;
 !------------------------------------------------!--------------------------------------------------!
 
 LEXICON PREF-ACT-IV ! Table 6.11 [p.129]
@@ -122,9 +134,12 @@ LEXICON PREF-ACT-IV ! Table 6.11 [p.129]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@ba%>  STEMS-V-IV ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@ba%>  STEMS-V-IV ;
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@dá%>  STEMS-V-IV ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@dá%>  STEMS-V-IV ;
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@      STEMS-V-IV ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@      STEMS-V-IV ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@ba%>  STEMS-V-IV ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@ba%>  STEMS-V-IV ;
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@dá%>  STEMS-V-IV ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@dá%>  STEMS-V-IV ;
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@      STEMS-V-IV ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@      STEMS-V-IV ;
 !------------------------------------------------!--------------------------------------------------!
 
 LEXICON PREF-ACT-V ! Table 6.12 [p.130]
@@ -132,9 +147,12 @@ LEXICON PREF-ACT-V ! Table 6.12 [p.130]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@b%>    STEMS-V-V ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@b%>    STEMS-V-V ;
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@d%>    STEMS-V-V ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@d%>    STEMS-V-V ;
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@       STEMS-V-V ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@       STEMS-V-V ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@b%>    STEMS-V-V ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@b%>    STEMS-V-V ;
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@d%>    STEMS-V-V ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@d%>    STEMS-V-V ;
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@       STEMS-V-V ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@       STEMS-V-V ;
 !------------------------------------------------!--------------------------------------------------!
 
 LEXICON PREF-ACT-VI ! Table 6.13 [p.130]
@@ -142,9 +160,12 @@ LEXICON PREF-ACT-VI ! Table 6.13 [p.130]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@ba%>  STEMS-V-VI ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@ba%>  STEMS-V-VI ;
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@dá%>  STEMS-V-VI ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@dá%>  STEMS-V-VI ;
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@      STEMS-V-VI ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@      STEMS-V-VI ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@ba%>  STEMS-V-VI ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@ba%>  STEMS-V-VI ;
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@dá%>  STEMS-V-VI ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@dá%>  STEMS-V-VI ;
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@      STEMS-V-VI ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@      STEMS-V-VI ;
 !------------------------------------------------!--------------------------------------------------!
 
 LEXICON PREF-ACT-VII ! Table 6.14 [p.131]
@@ -152,9 +173,12 @@ LEXICON PREF-ACT-VII ! Table 6.14 [p.131]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@aw%> STEMS-V-VII ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@aw%> STEMS-V-VII ;
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@al%> STEMS-V-VII ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@al%> STEMS-V-VII ;
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@     STEMS-V-VII ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@     STEMS-V-VII ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@aw%> STEMS-V-VII ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@aw%> STEMS-V-VII ;
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@al%> STEMS-V-VII ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@al%> STEMS-V-VII ;
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@     STEMS-V-VII ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@     STEMS-V-VII ;
 !------------------------------------------------!--------------------------------------------------!
 
 LEXICON PREF-ACT-VIII ! Table 6.15 [p.132]
@@ -162,9 +186,12 @@ LEXICON PREF-ACT-VIII ! Table 6.15 [p.132]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@b%> STEMS-V-VIII ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@b%> STEMS-V-VIII ; 
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@d%> STEMS-V-VIII ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@d%> STEMS-V-VIII ; 
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@    STEMS-V-VIII ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@    STEMS-V-VIII ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@b%> STEMS-V-VIII ;
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@b%> STEMS-V-VIII ; 
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@d%> STEMS-V-VIII ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@d%> STEMS-V-VIII ; 
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@    STEMS-V-VIII ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@    STEMS-V-VIII ;
 !------------------------------------------------!--------------------------------------------------!
 
 LEXICON PREF-ACT-IX ! Table 6.16 [p.133]
@@ -172,9 +199,12 @@ LEXICON PREF-ACT-IX ! Table 6.16 [p.133]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@b%>   STEMS-V-IX ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@b%>   STEMS-V-IX ; 
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@d%>   STEMS-V-IX ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@d%>   STEMS-V-IX ; 
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@      STEMS-V-IX ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@      STEMS-V-IX ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@b%>   STEMS-V-IX ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@b%>   STEMS-V-IX ; 
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@d%>   STEMS-V-IX ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@d%>   STEMS-V-IX ; 
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@      STEMS-V-IX ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@      STEMS-V-IX ;
 !------------------------------------------------!--------------------------------------------------!
 
 LEXICON PREF-ACT-X ! Table 6.17 [p.133]
@@ -182,9 +212,12 @@ LEXICON PREF-ACT-X ! Table 6.17 [p.133]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@baa%>  STEMS-V-X ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@baa%>  STEMS-V-X ; 
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@da%>   STEMS-V-X ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@da%>   STEMS-V-X ; 
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@       STEMS-V-X ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@       STEMS-V-X ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@baa%>  STEMS-V-X ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@baa%>  STEMS-V-X ; 
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@da%>   STEMS-V-X ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@da%>   STEMS-V-X ; 
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@       STEMS-V-X ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@       STEMS-V-X ;
 !------------------------------------------------!--------------------------------------------------!
 
 LEXICON PREF-ACT-XI ! Table 6.18 [p.134]
@@ -192,9 +225,12 @@ LEXICON PREF-ACT-XI ! Table 6.18 [p.134]
 !------------------------------------------------!--------------------------------------------------!
 ! SINGULAR                                       ! PLURAL                                           !
 !------------------------------------------------!--------------------------------------------------!
-@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@baa%>  STEMS-V-X ; @U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@baa%>  STEMS-V-X ; 
-@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@dáa%>  STEMS-V-X ; @U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@dáa%>  STEMS-V-X ; 
-@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@       STEMS-V-X ; @U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@       STEMS-V-X ;
+@U.AGR.SG1@%<s_sg1%>:@U.AGR.SG1@baa%>  STEMS-V-X ; 
+@U.AGR.PL1@%<s_pl1%>:@U.AGR.PL1@baa%>  STEMS-V-X ; 
+@U.AGR.SG2@%<s_sg2%>:@U.AGR.SG2@dáa%>  STEMS-V-X ; 
+@U.AGR.PL2@%<s_pl2%>:@U.AGR.PL2@dáa%>  STEMS-V-X ; 
+@U.AGR.SG3@%<s_sg3%>:@U.AGR.SG3@       STEMS-V-X ; 
+@U.AGR.PL3@%<s_pl3%>:@U.AGR.PL3@       STEMS-V-X ;
 !------------------------------------------------!--------------------------------------------------!
 
 
