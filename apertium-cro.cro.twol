@@ -1,21 +1,23 @@
 Alphabet
- A B Ç D E Ä F G H I J Ž K L M N Ň O Ö P R S Ş T U Ü W Y Ý Z
- a b ç d e ä f g h i j ž k l m n ň o ö p r s ş t u ü w y ý z
- %{n%}:n %{n%}:l 
+ a A á Á b B c C d D e E é É h H i I í Í k K l L m M n N o O ó Ó p P s S t T u U ú Ú x X
+ 
+ %{u%}:u %{u%}:o
   %>:%> %»:%»  ;
 
 Sets
 
-Vowel = A E Ä I O Ö U Ü Y Ý 
-        a e ä i o ö u ü y ý ;
+Vow = A Á E É I Í O Ó U Ú 
+        a á e é i í o ó u ú ;
+
+Low = a
 
 Rules 
 
 "Remove suffix vowel with vowel-ending stem"
-i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+Vow:0 <=> Vow %{VSUF%}:0 _ # ;
 
 "Drop -uu to -oo with a low vowel-ending stem (i.e. [a])"
-
+%{u%}:o <=> Low _ 
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
