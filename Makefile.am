@@ -53,7 +53,7 @@ TARGETS_COMMON =			\
 #	hfst-compose-intersect -1 .deps/$(LANG1).LR.seg.hfst -2 .deps/$(LANG1).mor.twol.hfst -o $@
 
 .deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.seg.hfst .deps/$(LANG1).mor.twol.hfst
-	hfst-compose-intersect -1 .deps/$(LANG1).LR.seg.hfst -2 .deps/$(LANG1).mor.twol.hfst -o $@
+	hfst-compose-intersect -1 .deps/$(LANG1).LR.seg.hfst -2 .deps/$(LANG1).mor.twol.hfst | hfst-minimise -o $@
 
 
 .deps/$(LANG1).mor.twol.hfst: $(BASENAME).$(LANG1).mor.twol

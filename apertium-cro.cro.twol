@@ -14,20 +14,31 @@ Low = a i ;
 Rules 
 
 
-"Drop -uu to -oo with a low vowel-ending stem (i.e. [a])"
-Vx:Vy <=> _ %>:  ; 
-      where Vx in ( a i ) 
-            Vy in ( u u ) 
-      matched ; 
+"Assimilate rounding"
+i:u <=> _ %>: o: ; 
 
 !$ óoli>o»k
 !$ óolu>u»k
+
+"Long vowel simplification"
+a:0 <=> [ u: | a: ] _ %>: o: ; 
+
+!$ íaxua>o»k
+!$ íaxu0>o»k
 
 "Plural assimilation"
-o:u <=> [ a:u | i:u ]  %>: _  ; 
+o:u <=>  i:u  %>: _  ; 
+        a: a: %>: _ ;  
 
 !$ óoli>o»k
 !$ óolu>u»k
+
+"Stem vowel assimilation"
+a:u <=> _ a: %>: o:u ; 
+
+!$ íkaa>o»k
+!$ íku0>u»k
+
 
 
 
