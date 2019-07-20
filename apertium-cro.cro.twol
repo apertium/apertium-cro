@@ -9,16 +9,19 @@ Sets
 Vow = A Á E É I Í O Ó U Ú 
         a á e é i í o ó u ú ;
 
-Low = a
+Low = a i ; 
 
 Rules 
 
 
 "Drop -uu to -oo with a low vowel-ending stem (i.e. [a])"
-Vx:Vy <=> Low _ .#. ; 
-     where Vx in ( %{u%} %{uu%} %{úu%} %{uú%} ) 
-           Vy in (   o     oo     óo     oó   ) 
-     matched ; 
+Vx:Vy <=> _ %>:  ; 
+      where Vx in ( a i ) 
+            Vy in ( u u ) 
+      matched ; 
+
+"Plural assimilation"
+o:u <=> [ a:u | i:u ]  %>: _  ; 
 
 
 
