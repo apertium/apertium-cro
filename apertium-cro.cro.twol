@@ -1,7 +1,7 @@
 Alphabet
  a A á Á b B c C d D e E é É h H i I í Í k K l L m M n N o O ó Ó p P s S t T u U ú Ú x X
  
- %{u%}:u %{u%}:o
+ %{u%}:u %{u%}:o %{uu%}:uu %{uu%}:oo %{úu%}:úu %{úu%}:óo %{uú%}:uú %{uú%}:oó 
   %>:%> %»:%»  ;
 
 Sets
@@ -17,8 +17,10 @@ Rules
 Vow:0 <=> Vow %{VSUF%}:0 _ # ;
 
 "Drop -uu to -oo with a low vowel-ending stem (i.e. [a])"
-#%{u%}:o <=> Low _ 
-
+%{u%}:o <=> Low _ # ;
+%{uu%}:oo <=> Low _ # ;
+%{úu%}:óo <=> Low _ # ;
+%{uú%}:oó <=> Low _ # ;
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
 ! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
