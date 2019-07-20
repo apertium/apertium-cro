@@ -17,7 +17,7 @@ Rules
 Vow:0 <=> Vow %{VSUF%}:0 _ # ;
 
 "Drop -uu to -oo with a low vowel-ending stem (i.e. [a])"
-%{u%}:o <=> Low _ 
+#%{u%}:o <=> Low _ 
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
