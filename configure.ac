@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium cro], [0.1.0], [ftyers@prompsit.com], [apertium-cro], [http://wiki.apertium.org/wiki/Apertium-cro])
+AC_INIT([Apertium cro], [0.1.0], [ftyers@prompsit.com], [apertium-cro], [https://wiki.apertium.org/wiki/Apertium-cro])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
